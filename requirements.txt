@@ -1,0 +1,11 @@
+# Requirements for Copyright Extraction Tool
+# Python 3.7+
+
+# Excel file handling
+xlsxwriter>=3.0.0
+
+# Note: tkinter comes with Python standard library
+# If missing on Linux, install via system package manager:
+#   Ubuntu/Debian: sudo apt-get install python3-tk
+#   Fedora/RHEL: sudo dnf install python3-tkinter
+#   Arch: sudo pacman -S tk
